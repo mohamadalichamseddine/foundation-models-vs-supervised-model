@@ -33,10 +33,16 @@ Run from the repository root with the environment activated.
 ```
 python -m src.data            # download the dataset into data/raw/
 python -m src.prepare_data    # build the splits. Will skip if already built under data/splits/
+python -m src.baseline_tfidf_logreg               # TF-IDF + logistic regression baseline, validation only
+python -m src.baseline_tfidf_logreg --score-test  # also score the held-out test split
 ```
 
 `python -m src.prepare_data` ends by printing the dataset statistics documented in
 [docs/data_preparation.md](docs/data_preparation.md).
+
+`python -m src.baseline_tfidf_logreg` selects the TF-IDF and regularization settings on the validation
+split, reports 5-fold cross-validation on the training split, and writes its tables and confusion matrix
+to `results/baseline/` (overwritten on each run, not committed).
 
 ## Dataset
 
@@ -57,8 +63,10 @@ python -m src.prepare_data    # build the splits. Will skip if already built und
 ```
 data/raw/                   Source files, downloaded automatically (not committed)
 data/splits/                Row IDs of the fixed training, validation, and test splits
+results/                    Outputs written by the scripts (not committed)
 docs/data_preparation.md    How the subset was built: cleaning, duplicates, selection
 src/data.py                 Download, verify, clean, and load the data (load_split)
 src/prepare_data.py         One-time selection of the subset, and dataset statistics
+src/baseline_tfidf_logreg.py  TF-IDF + logistic regression baseline: settings search, CV, scores
 requirements.txt            Pinned Python dependencies
 ```
