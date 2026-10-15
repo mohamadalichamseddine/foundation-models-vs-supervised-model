@@ -18,6 +18,3 @@ Thumbs.db
 data/raw/*
 !data/raw/.gitkeep
 docs/Initiative.pdf
-
-# Script outputs, regenerated on each run
-results/

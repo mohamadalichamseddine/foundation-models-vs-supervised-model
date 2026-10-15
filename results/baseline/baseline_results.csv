@@ -1,0 +1,4 @@
+model,config,split,accuracy,macro_f1,accuracy_std,macro_f1_std
+Majority class,most_frequent,validation,0.25,0.1,,
+TF-IDF + LR,"{'ngram_range': (1, 1), 'min_df': 2, 'sublinear_tf': True, 'C': 10.0}",5-fold CV on training,0.8613333333333333,0.8609540339694479,0.008198915917499236,0.008350138744963381
+TF-IDF + LR,"{'ngram_range': (1, 1), 'min_df': 2, 'sublinear_tf': True, 'C': 10.0}",validation,0.868,0.8669121619856852,,
