@@ -42,7 +42,7 @@ python -m src.baseline_tfidf_logreg --score-test  # also score the held-out test
 
 `python -m src.baseline_tfidf_logreg` selects the TF-IDF and regularization settings on the validation
 split, reports 5-fold cross-validation on the training split, and writes its tables and confusion matrix
-to `results/baseline/` (overwritten on each run, not committed).
+to `results/baseline/` (overwritten on each run).
 
 ## Dataset
 
@@ -63,7 +63,7 @@ to `results/baseline/` (overwritten on each run, not committed).
 ```
 data/raw/                   Source files, downloaded automatically (not committed)
 data/splits/                Row IDs of the fixed training, validation, and test splits
-results/                    Outputs written by the scripts (not committed)
+results/                    Outputs written by the scripts
 docs/data_preparation.md    How the subset was built: cleaning, duplicates, selection
 src/data.py                 Download, verify, clean, and load the data (load_split)
 src/prepare_data.py         One-time selection of the subset, and dataset statistics

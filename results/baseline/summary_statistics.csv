@@ -1,0 +1,6 @@
+Variable,Type,Units,n (non-null),% missing,Mean / mode,Std / count,Min-Max
+label (target),"categorical, 4 classes",class,4000,0.0%,none (balanced),"World 1,000 (25%); Sports 1,000 (25%); Business 1,000 (25%); Sci/Tech 1,000 (25%)",0-3
+text (input),string,headline + description,4000,0.0%,-,"4,000 unique",-
+text length,numeric (int),characters,4000,0.0%,229.6,58.3,71-717
+word count,numeric (int),words,4000,0.0%,37.3,9.9,11-131
+TF-IDF terms per article,"numeric (int); vocab 14,067",non-zero unigram features,4000,0.0%,29.8,7.2,7-87
