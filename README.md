@@ -1,20 +1,16 @@
-# Zero-shot and few-shot foundation models versus a small supervised model
+# Zero-shot and few-shot LLMs versus a small supervised model
 
-We compare a small supervised text classifier (TF-IDF + logistic regression) against two LLMs used without any weight updates, on four-class news-topic classification (World, Sports, Business, Sci/Tech). The question is whether LLM performance justifies its extra cost and latency for routing news articles to topic sections.
+Can two LLMs, used without any training, beat a simple TF-IDF + logistic regression classifier at sorting
+news articles into four topics (World, Sports, Business, Sci/Tech)? And is the difference worth the extra
+cost and latency?
 
 ## What is compared
 
-| System | Configurations |
-| --- | --- |
-| TF-IDF + regularized logistic regression (scikit-learn) | Settings selected on the validation split |
-| GPT-4o-mini (via OpenRouter) | 0-shot, 12-shot, 48-shot |
-| Llama 3.3 70B Instruct (via OpenRouter) | 0-shot, 12-shot, 48-shot |
+- **TF-IDF + logistic regression**, trained on 3,000 labeled articles.
+- **GPT-4o-mini** and **Llama 3.3 70B Instruct** through OpenRouter, each with 0, 12, and 48 examples in the prompt.
 
-Few-shot examples are drawn only from the training split and are balanced across classes
-(0, 3, and 12 examples per class).
-
-**Metrics:** accuracy (primary), macro-F1, cost per 1,000 predictions, mean/median latency, and
-for each LLM the max–min accuracy spread across 0/12/48 examples.
+All seven are scored on the same 500 test articles: accuracy, macro-F1, cost per 1,000 predictions, and
+mean/median latency. For each LLM we also report how much accuracy changes between 0, 12, and 48 examples.
 
 ## Setup
 
@@ -24,49 +20,42 @@ Requires Python 3.13.
 python -m venv .venv
 .venv\Scripts\activate        # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
+copy .env.example .env        # macOS/Linux: cp .env.example .env
 ```
+
+Then put your [OpenRouter](https://openrouter.ai) API key in `.env`. Git ignores this file.
 
 ## How to run
 
-Run from the repository root with the environment activated.
+From the repository root, with the environment activated:
 
 ```
-python -m src.data            # download the dataset into data/raw/
-python -m src.prepare_data    # build the splits. Will skip if already built under data/splits/
-python -m src.baseline_tfidf_logreg               # TF-IDF + logistic regression baseline, validation only
-python -m src.baseline_tfidf_logreg --score-test  # also score the held-out test split
+python -m src.baseline_tfidf_logreg --score-test   # logistic regression, results in results/baseline/
+python -m src.llm_classify                         # both LLMs, results in results/llm/
 ```
 
-`python -m src.prepare_data` ends by printing the dataset statistics documented in
-[docs/data_preparation.md](docs/data_preparation.md).
+The dataset downloads automatically on the first run. Each command writes one file of predictions per
+model (one row per test article) and a `test_results.csv` with the scores. The LLM run makes 3,000 API
+calls; if it stops, run it again and it continues where it left off.
 
-`python -m src.baseline_tfidf_logreg` selects the TF-IDF and regularization settings on the validation
-split, reports 5-fold cross-validation on the training split, and writes its tables and confusion matrix
-to `results/baseline/` (overwritten on each run).
+## Data
 
-## Dataset
+- **AG News** from Hugging Face ([`fancyzhx/ag_news`](https://huggingface.co/datasets/fancyzhx/ag_news),
+  Zhang, Zhao & LeCun, 2015), pinned to one version and checked by SHA-256. Used for non-commercial
+  research only, as the original corpus requires.
+- **A fixed subset** of 3,000 training, 500 validation, and 500 test articles, balanced across the four
+  topics, with duplicate articles removed. The row IDs are in `data/splits/`.
+- **The prompts** are in `data/prompts/`. Their examples are the first 12 and 48 training articles, the
+  only article text stored in the repository.
 
-- **Source:** AG News, Hugging Face [`fancyzhx/ag_news`](https://huggingface.co/datasets/fancyzhx/ag_news)
-  (Zhang, Zhao & LeCun, 2015). 120,000 train + 7,600 test rows, balanced across four classes.
-- **Terms:** license listed as unknown on Hugging Face; the original corpus page states
-  non-commercial use. Used here for non-commercial research only, and the raw data is not committed in the repository.
-- **Pinned version:** Hugging Face commit `eb185aade064a813bc0b7f42de02595523103ca4`. The two
-  source files (train, test) are checked against their published SHA-256, so every teammate works
-  from identical files.
-- **Subset:** 4,000 articles, balanced across the four classes: 3,000 training and 500 validation
-  from the source train file, 500 test from the source test file. Articles whose normalized text
-  appears more than once across both files are skipped. The row IDs are committed in `data/splits/`.
-  Details: [docs/data_preparation.md](docs/data_preparation.md).
+How the subset was built: [docs/data_preparation.md](docs/data_preparation.md).
 
 ## Repository structure
 
 ```
-data/raw/                   Source files, downloaded automatically (not committed)
-data/splits/                Row IDs of the fixed training, validation, and test splits
-results/                    Outputs written by the scripts
-docs/data_preparation.md    How the subset was built: cleaning, duplicates, selection
-src/data.py                 Download, verify, clean, and load the data (load_split)
-src/prepare_data.py         One-time selection of the subset, and dataset statistics
-src/baseline_tfidf_logreg.py  TF-IDF + logistic regression baseline: settings search, CV, scores
-requirements.txt            Pinned Python dependencies
+data/splits/     Row IDs of the training, validation, and test articles
+data/prompts/    LLM prompts with 0, 12, and 48 examples
+src/             Code: data loading, baseline, LLM runs, shared metrics
+results/         Outputs of the runs (results/llm/old/ holds an earlier pilot)
+docs/            How the data subset was built
 ```

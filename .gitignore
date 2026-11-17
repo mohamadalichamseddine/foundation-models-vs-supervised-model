@@ -18,3 +18,4 @@ Thumbs.db
 data/raw/*
 !data/raw/.gitkeep
 docs/Initiative.pdf
+docs/Progress.docx

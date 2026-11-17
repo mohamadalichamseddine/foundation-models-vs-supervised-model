@@ -127,6 +127,12 @@ The few-shot examples are the first 12 and the first 48 rows of the training spl
 class, with the 12 included in the 48. The project plan called for 10 and 50; neither divides by
 four, so they were changed to the nearest balanced counts.
 
+The complete prompts are in `data/prompts/` (`0_shot.txt`, `12_shot.txt`, `48_shot.txt`). All three
+share the same instruction; the few-shot ones add the line "Below are some examples:" and then the
+examples in split order (World, Sports, Business, Sci/Tech, World, …), each written as the cleaned
+article text followed by its topic. `{article}` marks
+where the test article goes.
+
 ## 6. Checks
 
 `python -m src.prepare_data` ends with these checks, and all pass:

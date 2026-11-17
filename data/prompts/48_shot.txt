@@ -1,0 +1,202 @@
+Classify the news article into one of these topics: World, Sports, Business, Sci/Tech.
+Answer with the topic name only.
+
+Below are some examples:
+
+Article:
+Germany to continue Iran talks before Nov.25 LONDON, Oct 23 (IranMania) - The German government on Friday called for continued political talks on Irans nuclear programme ahead of the November 25 meeting of the International Atomic Energy Agencys (IAEA) Board of Governors, Iran's State news Agency
+Topic: World
+
+Article:
+Radcliffe drops out again GREAT Britain's Paula Radcliffe's dropped out of the Olympic Games women's 10,000m with eight laps still to go this morning having made a late decision to compete.
+Topic: Sports
+
+Article:
+Nordstrom earnings beat estimates SEATTLE -- Nordstrom Inc.'s income soared 71 percent in its latest quarter as the clothing chain continued to focus on improving merchandise and managing expenses.
+Topic: Business
+
+Article:
+TB test to slash infection rates A rapid and accurate test for TB could cut infection rates around the world, say experts.
+Topic: Sci/Tech
+
+Article:
+White House welcomes EU-Turkey breakthrough The White House on Friday warmly welcomed a hard-fought deal between the European Union and Turkey that sets the stage for Ankara to start EU entry talks next year.
+Topic: World
+
+Article:
+Roundup: Gardner upset in wrestling ATHENS - After suffering a stunning 4-1 overtime loss to Kazakhstan's Georgiy Tsurtsumia in the men's Greco-Roman super heavyweight semifinals, defending champion Rulon Gardner came back to win the bronze medal today by defeating Sajad Barzi of Iran, 3
+Topic: Sports
+
+Article:
+Alpharma Says Pfizer Drug Generic Cleared NEW YORK (Reuters) - A federal appeals court has cleared the way for Alpharma Inc. ALO.N to launch a generic form of Pfizer Inc's PFE.N Neurontin capsules to treat epilepsy, sending Alpharma shares sharply higher.
+Topic: Business
+
+Article:
+IBM Unveils Latest 'On-Demand' Tech Center com. IBM on Monday unveiled a technology lab for customers looking to test the company's products for managing computer resources based on business demands.
+Topic: Sci/Tech
+
+Article:
+Australian Opposition Sticking by Latham Opposition Labor party leader Mark Latham gestures as he concedes defeat of general election Saturday, Oct. 9, 2004 in Sydney. John Howards conservative coalition party the Liberals, won a fourth consecutive term in power.
+Topic: World
+
+Article:
+Yankees and Red Sox ready to rumble (Sports Network) - The anticipation has been building for a year, and finally tonight the rematch will begin, as the Boston Red Sox battle the New York Yankees in Game 1 of the American League Championship Series.
+Topic: Sports
+
+Article:
+Boston Scientific Outlook Trails Views CHICAGO (Reuters) - Boston Scientific Corp. BSX.N , whose Taxus heart device has been involved in a major recall, said on Wednesday preliminary August sales of the device slowed to $200 million from $207 million reported in July, and issued an outlook that was below Wall Street estimates.
+Topic: Business
+
+Article:
+HP Tapped for $290 Million Defense Logistics Agency Contract PALO ALTO, Calif. --(Business Wire)-- Sept. 15, 2004 -- HP (NYSE:HPQ)(Nasdaq:HPQ) today announced that it has been awarded a 10-year contract worth $290 million by the Defense Logistics Agency (DLA), an agency of the US Department of Defense.
+Topic: Sci/Tech
+
+Article:
+India, Pakistan say need more talks on Kashmir bus India and Pakistan were unable to agree on starting a bus service between the capitals of divided Kashmir in two days of talks which ended in New Delhi on Wednesday and said they would need more discussions.
+Topic: World
+
+Article:
+Coaching change won't help Dolphins win Here's what you didn't hear from the Dolphins on Tuesday: You didn't hear anyone suggest this day helps them win. You didn't hear anyone pretend this franchise is improved.
+Topic: Sports
+
+Article:
+Philips warns that sales of its chips are stalling AMSTERDAM Philips Electronics, Europe's third-largest maker of semiconductors, on Friday reduced its third-quarter chip sales forecast, saying demand is waning.
+Topic: Business
+
+Article:
+Congress Passes Satellite Transmission Measure WASHINGTON (Reuters) - Satellite companies would be able to retransmit broadcasters' television signals for another five years but would have to offer those signals on a single dish, under legislation approved by Congress on Saturday.
+Topic: Sci/Tech
+
+Article:
+Iranians, Europeans Meet on Nuclear Deal After five days of intense internal deliberations, Iranian officials met with European envoys here Thursday to seek "clarifications" on a proposed deal that would require Tehran to indefinitely suspend a pivotal aspect of its nuclear energy program that could be converted to military use, Western diplomatic sources here said.
+Topic: World
+
+Article:
+Cavs to let injury-prone Wagner become free agent CLEVELAND -- Guard Dajuan Wagner will become a free agent after this season because the Cleveland Cavaliers declined their $3.4 million contract option for 2005-06 on Friday.
+Topic: Sports
+
+Article:
+Bank of America signs in They served up a giant Bank of America sheet cake, festooned the bank branch with balloons, and dispatched smiling greeters to welcome customers in upstate New York yesterday, as the first FleetBoston Financial Corp. branches formally switched to Bank of America.
+Topic: Business
+
+Article:
+Andrew Kantor: CyberSpeak - Sinclair is the latest to feel the power of blogs (USATODAY.com) USATODAY.com - Last Friday, television stations that were members of the Sinclair Media Group were scheduled to air an anti-John Kerry special called Stolen Honor. They were ordered to by executives of the company - the same execs who forbid the 62 TV stations the company controls from airing Ted Koppel's reading of the names of U.S. soldiers killed in Iraq this spring.
+Topic: Sci/Tech
+
+Article:
+Kerry slams Cheney as "Minister of Disinformation" over weapons drama (AFP) AFP - John Kerry slammed Vice President Dick Cheney as "Minister of Disinformation," and accused the White House of "dodging and bobbing and weaving" to evade blame over missing explosives in Iraq.
+Topic: World
+
+Article:
+Bump Doesn't Stop Prince Arch in Saranac Favored Prince Arch overcame a bump with Good Reward in upper stretch to rally for a resolute victory by a head over Mustanfar in the closing-day $108,200 Saranac Handicap (gr.
+Topic: Sports
+
+Article:
+Entrepreneurs get by with a little help from their counselors Boston entrepreneur Philip Guarino once thought that running a small enterprise would be a piece of cake. ''Having an MBA, I didn't think I'd need any direction," he said.
+Topic: Business
+
+Article:
+SpaceShipOne Successfully Soars Into Space Again By JOHN ANTCZAK MOJAVE, Calif. (AP) -- The first private manned rocket recovered from a wild corkscrew roll on its ascent to soar to space and back Wednesday in a bid to earn a $10 million prize...
+Topic: Sci/Tech
+
+Article:
+Russians wary of Putin's actions MOSCOW -- President Vladimir Putin says he will fight anti-Russian attacks by consolidating security agencies and further tightening political control over the country.
+Topic: World
+
+Article:
+Gannon has broken vertebra in his neck Oakland quarterback Rich Gannon has a broken vertebra in his neck that will sideline him at least six weeks. Gannon had an MRI exam Monday morning and was taken for further tests.
+Topic: Sports
+
+Article:
+Oil Eases as Saudi Offers Crude Discounts Oil prices eased on Monday as top world exporter Saudi Arabia slashed prices for its crude sales to the United States and Europe in an effort to shift the large volumes it is offering to cool world markets.
+Topic: Business
+
+Article:
+Cisco brings IT skills to UK prisoners Cisco Systems is working with the UK government on a pilot programme to train prison inmates in information and communications technology (ICT) skills.
+Topic: Sci/Tech
+
+Article:
+UN counts 70,000 dead in Darfur crisis GENEVA -- At least 70,000 refugees have died since March because of poor conditions in camps in Sudan's Darfur region, and more will die at the same rate unless countries contribute the $300 million in aid they promised, the UN health agency said yesterday.
+Topic: World
+
+Article:
+Hamilton Is Suspended U.S. cyclist Tyler Hamilton was suspended from his professional team Wednesday and put on notice that his contract would be invalidated if he is found guilty of the drug charges against him.
+Topic: Sports
+
+Article:
+Chrysler to recall 600,000 SUVs, pick-ups DETROIT, United States (AFP) - Under pressure from US regulators, DaimlerChrysler's Chrysler Group said it would recall more than half a million trucks over ball joint defects that can cause the wheels of the vehicle to separate from the body.
+Topic: Business
+
+Article:
+Infocus: Examining a Public Exploit, Part 1 The purpose of this article is to analyze a public exploit in a lab environment, see the alerts generated by an intrusion detection system, and then do some packet analysis of the malicious binary in order to better understand it.
+Topic: Sci/Tech
+
+Article:
+Date set for India Maoist talks The Indian state of Andhra Pradesh says peace talks with the Maoist People's War Group will start on 15 October.
+Topic: World
+
+Article:
+Mickelson finally makes it to Grand Slam POIPU BEACH, Hawaii - When Phil Mickelson visited Kauai about eight months ago on a family vacation, he was determined to return. But with his 0-46 record in major championships as a pro and amateur, qualifying
+Topic: Sports
+
+Article:
+Rate Futures Fall After Payroll Data CHICAGO (Reuters) - Short-term interest rate futures fell modestly on Friday after U.S. jobs growth for August was in line with Wall Street expectations, cementing the prospects for further monetary policy tightening.
+Topic: Business
+
+Article:
+'Greenhouse' Gas Rising Over Antarctica (AP) AP - A group of Japanese researchers has found that carbon dioxide levels over the Antarctica rose by over 2.6 percent from six years ago — the first such detection of an increase in a "greenhouse" gas above the southern continent, group members said Tuesday.
+Topic: Sci/Tech
+
+Article:
+Iranian Leader Says It Has Nuclear Rights (AP) AP - Iranian President Mohammad Khatami called on the international community Wednesday to recognize Iran's right to enrich uranium, again insisting Tehran will pursue a nuclear program that some — including the United States — suspect is aimed at developing weapons.
+Topic: World
+
+Article:
+Deportivo upset by battling Osasuna MADRID: Deportivo Coruna slumped to a surprise 3-1 home defeat by Osasuna last night after the visitors fought back from a goal down and a sending-off to claim their first Primera Liga win of the season.
+Topic: Sports
+
+Article:
+U.S. SEC Looking Into Broker Trade Prices (Reuters) Reuters - The U.S. Securities and Exchange Commission is investigating about a dozen brokerage firms that may have failed to obtain the best price for stocks traded for customers, a source familiar with the matter said on Monday.
+Topic: Business
+
+Article:
+Nextel 3Q Profit Rises Wireless communications service provider Nextel Communications Inc. on Friday posted 69 percent growth in third-quarter earnings based on demand across its business sectors, and raised its outlook for 2004.
+Topic: Sci/Tech
+
+Article:
+The world will feel Ivory Coast's pain On a continent that absorbs 75 percent of the world's UN peacekeeping forces and budget, Ivory Coast's violent downward spiral threatens hard-won gains against West Africa's devastating civil wars of the 1990s.
+Topic: World
+
+Article:
+Pistons Stop Raptors 90-86 in Overtime (AP) AP - Richard Hamilton scored six of his 19 points in overtime as the Detroit Pistons held off the Toronto Raptors 90-86 on Wednesday night.
+Topic: Sports
+
+Article:
+EU reportedly to OK Oracle bid for PeopleSoft SAN FRANCISCO (CBS.MW) -- Oracle is close to gaining approval from European Union regulators regarding its proposed takeover of PeopleSoft, according to the Financial Times on Friday.
+Topic: Business
+
+Article:
+OutKast Tops First Digital-Music Sales Awards (Reuters) Reuters - Hip-hip duo OutKast took top honors on Wednesday as the recording industry handed out its first awards for music sold through Internet-music services like Apple Computer Inc.'s iTunes.
+Topic: Sci/Tech
+
+Article:
+Occupation forces invade Balatah camp One Palestinian was killed by the Israeli forces and a woman settler in a Palestinian attack. News reports quoted Israeli military sources as saying that the Israeli occupation forces killed one Palestinian
+Topic: World
+
+Article:
+It's on to LA for the Giants Bee Staff Writer. SAN DIEGO - The San Diego Padres returned the favor, and the playoff-chasing Giants gladly accepted it before a disappointed record crowd of 45,389 at Petco Park.
+Topic: Sports
+
+Article:
+Lenovo IBM deal a 'great leap' for Chinese companies on the world ... SHANGHAI (AFP) - Computer maker Lenovo's landmark purchase of the PC business of one of America's most vaunted corporate names adds to a growing list of ambitious Chinese companies seeking to make a name for themselves on global markets.
+Topic: Business
+
+Article:
+US Govt investigating cyber crimes worth $215 mn The US Justice Department's crackdown on cyber crime has brought to light illegal activities, including credit-card fraud, to the tune of over $215 million and resulted in dozens of arrests, a senior official said.
+Topic: Sci/Tech
+
+Now classify this article:
+
+Article:
+{article}
+Topic:
