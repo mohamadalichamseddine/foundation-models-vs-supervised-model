@@ -1,0 +1,58 @@
+Classify the news article into one of these topics: World, Sports, Business, Sci/Tech.
+Answer with the topic name only.
+
+Below are some examples:
+
+Article:
+Germany to continue Iran talks before Nov.25 LONDON, Oct 23 (IranMania) - The German government on Friday called for continued political talks on Irans nuclear programme ahead of the November 25 meeting of the International Atomic Energy Agencys (IAEA) Board of Governors, Iran's State news Agency
+Topic: World
+
+Article:
+Radcliffe drops out again GREAT Britain's Paula Radcliffe's dropped out of the Olympic Games women's 10,000m with eight laps still to go this morning having made a late decision to compete.
+Topic: Sports
+
+Article:
+Nordstrom earnings beat estimates SEATTLE -- Nordstrom Inc.'s income soared 71 percent in its latest quarter as the clothing chain continued to focus on improving merchandise and managing expenses.
+Topic: Business
+
+Article:
+TB test to slash infection rates A rapid and accurate test for TB could cut infection rates around the world, say experts.
+Topic: Sci/Tech
+
+Article:
+White House welcomes EU-Turkey breakthrough The White House on Friday warmly welcomed a hard-fought deal between the European Union and Turkey that sets the stage for Ankara to start EU entry talks next year.
+Topic: World
+
+Article:
+Roundup: Gardner upset in wrestling ATHENS - After suffering a stunning 4-1 overtime loss to Kazakhstan's Georgiy Tsurtsumia in the men's Greco-Roman super heavyweight semifinals, defending champion Rulon Gardner came back to win the bronze medal today by defeating Sajad Barzi of Iran, 3
+Topic: Sports
+
+Article:
+Alpharma Says Pfizer Drug Generic Cleared NEW YORK (Reuters) - A federal appeals court has cleared the way for Alpharma Inc. ALO.N to launch a generic form of Pfizer Inc's PFE.N Neurontin capsules to treat epilepsy, sending Alpharma shares sharply higher.
+Topic: Business
+
+Article:
+IBM Unveils Latest 'On-Demand' Tech Center com. IBM on Monday unveiled a technology lab for customers looking to test the company's products for managing computer resources based on business demands.
+Topic: Sci/Tech
+
+Article:
+Australian Opposition Sticking by Latham Opposition Labor party leader Mark Latham gestures as he concedes defeat of general election Saturday, Oct. 9, 2004 in Sydney. John Howards conservative coalition party the Liberals, won a fourth consecutive term in power.
+Topic: World
+
+Article:
+Yankees and Red Sox ready to rumble (Sports Network) - The anticipation has been building for a year, and finally tonight the rematch will begin, as the Boston Red Sox battle the New York Yankees in Game 1 of the American League Championship Series.
+Topic: Sports
+
+Article:
+Boston Scientific Outlook Trails Views CHICAGO (Reuters) - Boston Scientific Corp. BSX.N , whose Taxus heart device has been involved in a major recall, said on Wednesday preliminary August sales of the device slowed to $200 million from $207 million reported in July, and issued an outlook that was below Wall Street estimates.
+Topic: Business
+
+Article:
+HP Tapped for $290 Million Defense Logistics Agency Contract PALO ALTO, Calif. --(Business Wire)-- Sept. 15, 2004 -- HP (NYSE:HPQ)(Nasdaq:HPQ) today announced that it has been awarded a 10-year contract worth $290 million by the Defense Logistics Agency (DLA), an agency of the US Department of Defense.
+Topic: Sci/Tech
+
+Now classify this article:
+
+Article:
+{article}
+Topic:

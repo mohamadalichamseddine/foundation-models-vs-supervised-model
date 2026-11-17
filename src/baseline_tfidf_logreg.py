@@ -2,6 +2,7 @@
 
 import argparse
 import itertools
+import platform
 import time
 from pathlib import Path
 
@@ -15,6 +16,7 @@ from sklearn.model_selection import StratifiedKFold, cross_validate
 from sklearn.pipeline import Pipeline
 
 from src.data import LABEL_NAMES, REPO_ROOT, load_split
+from src.evaluation import save_confusion_matrix, summarize
 
 SEED = 42
 
@@ -96,25 +98,23 @@ def grid_search(train: pd.DataFrame, val: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows).sort_values(["accuracy", "macro_f1"], ascending=False, ignore_index=True)
 
 
-def save_confusion_matrix(cm: np.ndarray, path: Path, title: str) -> None:
-    try:
-        import matplotlib
-        matplotlib.use("Agg")
-        import matplotlib.pyplot as plt
-    except ImportError:
-        return
-    fig, ax = plt.subplots(figsize=(4.8, 4.2))
-    ax.imshow(cm, cmap="Blues")
-    ax.set_xticks(range(4), LABEL_NAMES, rotation=30, ha="right")
-    ax.set_yticks(range(4), LABEL_NAMES)
-    ax.set_xlabel("Predicted label")
-    ax.set_ylabel("True label")
-    ax.set_title(title, fontsize=10)
-    for i, j in itertools.product(range(4), range(4)):
-        ax.text(j, i, cm[i, j], ha="center", va="center", color="white" if cm[i, j] > cm.max() / 2 else "black")
-    fig.tight_layout()
-    fig.savefig(path, dpi=200)
-    plt.close(fig)
+def predict_one_at_a_time(model: Pipeline, test: pd.DataFrame) -> pd.DataFrame:
+    """Return one row per test article: true and predicted topic, confidence, latency, and cost.
+
+    Each article is classified and timed on its own, as each LLM call handles one article. confidence is
+    the probability of the predicted topic. Prediction runs locally, so cost_usd is 0. The columns match
+    the LLM predictions in results/llm/.
+    """
+    rows = []
+    for row in test.itertuples():
+        start = time.perf_counter()
+        proba = model.predict_proba([row.text])[0]
+        latency_s = time.perf_counter() - start
+        best = int(proba.argmax())
+        rows.append({"id": row.id, "true_label": LABEL_NAMES[row.label],
+                     "predicted_label": LABEL_NAMES[model.classes_[best]], "confidence": proba[best],
+                     "latency_s": latency_s, "cost_usd": 0.0})
+    return pd.DataFrame(rows)
 
 
 def main() -> None:
@@ -160,7 +160,9 @@ def main() -> None:
         fold = cv[f"test_{metric}"]
         print(f"{metric}: {fold.mean():.3f} +/- {fold.std(ddof=1):.3f}  (folds {np.round(fold, 3).tolist()})")
 
+    start = time.perf_counter()
     model = make_pipeline(**best).fit(train.text, train.label)
+    training_time_s = time.perf_counter() - start
     start = time.perf_counter()
     val_pred = model.predict(val.text)
     ms_per_1000 = (time.perf_counter() - start) / len(val) * 1000 * 1000
@@ -182,12 +184,23 @@ def main() -> None:
         {"model": "TF-IDF + LR", "config": str(best), "split": "validation", **val_scores},
     ]
 
-    if args.score_test:
-        test_scores = scores(test.label, model.predict(test.text))
-        print(f"\n== Test (held out) ==\naccuracy {test_scores['accuracy']:.3f}, macro-F1 {test_scores['macro_f1']:.3f}")
-        results.append({"model": "TF-IDF + LR", "config": str(best), "split": "test", **test_scores})
-
     pd.DataFrame(results).to_csv(args.out / "baseline_results.csv", index=False)
+
+    if args.score_test:
+        predictions = predict_one_at_a_time(model, test)
+        predictions.to_csv(args.out / "test_predictions.csv", index=False)
+        result = {"model": "TF-IDF + LR", "labeled_examples": len(train), **summarize(predictions),
+                  "training_time_s": training_time_s, "cpu": platform.processor()}
+        pd.DataFrame([result]).to_csv(args.out / "test_results.csv", index=False)
+        print(f"\n== Test (held out, one article at a time) ==")
+        print(f"accuracy {result['accuracy']:.3f}, macro-F1 {result['macro_f1']:.3f}, "
+              f"latency mean {result['latency_mean_s'] * 1000:.2f} ms, median {result['latency_median_s'] * 1000:.2f} ms, "
+              f"training {training_time_s:.2f} s")
+        print(classification_report(predictions.true_label, predictions.predicted_label, labels=LABEL_NAMES, digits=3))
+        cm = confusion_matrix(predictions.true_label, predictions.predicted_label, labels=LABEL_NAMES)
+        save_confusion_matrix(cm, args.out / "confusion_matrix_test.png",
+                              f"TF-IDF + LR, test (n={len(test)}), acc {result['accuracy']:.3f}")
+
     print(f"\nWrote CSV/PNG outputs to {args.out.resolve()}")
 
 

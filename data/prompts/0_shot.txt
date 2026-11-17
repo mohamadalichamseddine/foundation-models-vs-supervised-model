@@ -1,0 +1,8 @@
+Classify the news article into one of these topics: World, Sports, Business, Sci/Tech.
+Answer with the topic name only.
+
+Now classify this article:
+
+Article:
+{article}
+Topic:
