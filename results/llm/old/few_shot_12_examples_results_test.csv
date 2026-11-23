@@ -1,3 +1,0 @@
-model,shots,order,accuracy,macro_F1,invalid
-GPT-4o-mini,12,random_1,0.884,0.8839099196519196,0
-Llama-3.3-70B,12,grouped,0.9,0.9002071079533809,0
