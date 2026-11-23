@@ -1,0 +1,501 @@
+id,true_label,predicted_label,answer,latency_s,cost_usd,input_tokens,output_tokens,provider,model_version
+4106,World,World,World,0.5271580000407994,8.28e-05,113,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+461,Sports,Sports,Sports,0.28612649999558926,8.712e-05,119,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3354,Business,Sci/Tech,Sci/Tech,0.4089946001768112,7.92e-05,106,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1784,Sci/Tech,Business,Business,0.30550150014460087,9.648e-05,132,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5249,World,World,World,0.31915290001779795,9.936e-05,136,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6225,Sports,Sports,Sports,0.44407259998843074,8.424e-05,115,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+598,Business,Business,Business,0.6844851998612285,8.359e-05,139,2,Groq,meta-llama/llama-3.3-70b-instruct
+6768,Sci/Tech,Sci/Tech,Sci/Tech,0.28063889965415,7.313e-05,99,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3622,World,World,World,0.22943699965253472,5.538e-05,76,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+6536,Sports,Sports,Sports,0.36485050013288856,4.0252e-05,122,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+288,Business,Business,Business,0.2484880001284182,8.496e-05,116,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1600,Sci/Tech,Sci/Tech,Sci/Tech,0.3507584002800286,9e-05,121,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7253,World,World,World,0.33155270013958216,3.8787e-05,117,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7383,Sports,Sports,Sports,0.2537679001688957,6.884e-05,114,2,Groq,meta-llama/llama-3.3-70b-instruct
+5300,Business,Business,Business,0.3871389999985695,3.908e-05,118,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3824,Sci/Tech,Sci/Tech,Sci/Tech,0.24156130012124777,4.5051e-05,123,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+203,World,World,World,0.2393792998045683,8.359e-05,139,2,Groq,meta-llama/llama-3.3-70b-instruct
+2665,Sports,Sports,Sports,0.40207669977098703,7.242e-05,100,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4629,Business,Business,Business,0.28846869990229607,4.6112e-05,142,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7426,Sci/Tech,World,World,0.5206345999613404,9.598e-05,160,2,Groq,meta-llama/llama-3.3-70b-instruct
+3054,World,World,World,0.17454959964379668,8.165e-05,113,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1247,Sports,Sports,Sports,0.34054380003362894,3.5271e-05,105,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7042,Business,Business,Business,0.1928248000331223,6.532e-05,90,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2009,Sci/Tech,Sci/Tech,Sci/Tech,0.30580309964716434,8.712e-05,117,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+38,World,World,World,0.4094719998538494,4.1131e-05,125,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4274,Sports,Sports,Sports,0.27839040011167526,6.887e-05,95,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4687,Business,Business,Business,0.23335769958794117,6.768e-05,92,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3623,Sci/Tech,Sci/Tech,Sci/Tech,0.26724560000002384,8.424e-05,113,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1549,World,World,World,0.24237769981846213,8.123e-05,135,2,Groq,meta-llama/llama-3.3-70b-instruct
+4973,Sports,Sports,Sports,0.2680410002358258,7.704e-05,105,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+195,Business,Business,Business,0.44669049978256226,6.461e-05,89,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+982,Sci/Tech,Sci/Tech,Sci/Tech,0.4112124997191131,7.2e-05,96,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2834,World,World,World,0.2103272001259029,8.28e-05,113,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5677,Sports,Sports,Sports,0.300760299898684,7.632e-05,104,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2724,Business,Business,Business,0.2659232998266816,8.928e-05,122,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6975,Sci/Tech,Sci/Tech,Sci/Tech,0.3469070000573993,6.532e-05,88,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+67,World,World,World,0.40967460023239255,4.201e-05,128,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5214,Sports,Sports,Sports,0.17888109991326928,6.106e-05,84,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5004,Business,Business,Business,2.0429500001482666,4.0252e-05,122,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+13,Sci/Tech,Sci/Tech,Sci/Tech,3.7360565001145005,7.488e-05,100,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3545,World,World,World,0.18208169983699918,7.238e-05,120,2,Groq,meta-llama/llama-3.3-70b-instruct
+2980,Sports,Sports,Sports,0.18881990015506744,7.179e-05,119,2,Groq,meta-llama/llama-3.3-70b-instruct
+6680,Business,Business,Business,0.25026920018717647,8.064e-05,134,2,Groq,meta-llama/llama-3.3-70b-instruct
+560,Sci/Tech,Business,Business,0.3704248000867665,8.424e-05,115,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2386,World,Business,Business,0.2127157999202609,6.766e-05,112,2,Groq,meta-llama/llama-3.3-70b-instruct
+3331,Sports,Sports,Sports,0.2227851003408432,8.64e-05,118,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1607,Business,Business,Business,0.2892164997756481,7.179e-05,119,2,Groq,meta-llama/llama-3.3-70b-instruct
+2115,Sci/Tech,Sci/Tech,Sci/Tech,0.30679980013519526,3.9777e-05,105,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4800,World,World,World,0.3059791000559926,0.00010224,140,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+274,Sports,Sports,Sports,0.2441666000522673,0.00010152,139,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+443,Business,Business,Business,0.3693845998495817,3.3513e-05,99,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+445,Sci/Tech,Sci/Tech,Sci/Tech,0.4095148001797497,8.352e-05,112,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6384,World,World,World,0.5119860996492207,6.117e-05,101,2,Groq,meta-llama/llama-3.3-70b-instruct
+1157,Sports,Sports,Sports,0.23972730012610555,8.928e-05,122,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2935,Business,Business,Business,0.3730520000681281,9.648e-05,132,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7215,Sci/Tech,Business,Business,0.4084526998922229,7.533e-05,125,2,Groq,meta-llama/llama-3.3-70b-instruct
+5744,World,World,World,0.31977069983258843,4.201e-05,128,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7395,Sports,Sports,Sports,0.2452980000525713,3.9373e-05,119,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6729,Business,Business,Business,0.2796846996061504,3.9959e-05,121,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5455,Sci/Tech,Sci/Tech,Sci/Tech,0.28182110004127026,8.784e-05,118,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3696,World,World,World,0.5059791002422571,3.8201e-05,115,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5536,Sports,Sports,Sports,0.3959686001762748,4.1424e-05,126,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5232,Business,Business,Business,0.20911270007491112,8.928e-05,122,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2143,Sci/Tech,Sci/Tech,Sci/Tech,0.4195499001070857,4.6809e-05,129,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6483,World,World,World,0.6955337999388576,4.1424e-05,126,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7211,Sports,Sports,Sports,0.3355372999794781,7.92e-05,108,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1719,Business,Business,Business,0.3976134001277387,6.707e-05,111,2,Groq,meta-llama/llama-3.3-70b-instruct
+4760,Sci/Tech,Sci/Tech,Sci/Tech,0.3004219001159072,8.136e-05,109,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2325,World,World,World,0.3204529001377523,4.0545e-05,123,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3541,Sports,Sports,Sports,0.3957209000363946,8.64e-05,118,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3822,Business,Business,Business,0.3254621997475624,3.615e-05,108,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6323,Sci/Tech,Sci/Tech,Sci/Tech,0.27653260016813874,8.136e-05,109,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6119,World,World,World,0.3072335999459028,3.7908e-05,114,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6988,Sports,Sports,Sports,0.40850900020450354,3.7322e-05,112,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6739,Business,Sci/Tech,Sci/Tech,0.3137459997087717,4.6516e-05,128,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+758,Sci/Tech,Sci/Tech,Sci/Tech,0.2995335999876261,7.416e-05,99,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3916,World,Sci/Tech,Sci/Tech,0.25229369988664985,6.216e-05,100,4,Groq,meta-llama/llama-3.3-70b-instruct
+1487,Sports,Sports,Sports,0.24708769982680678,4.1717e-05,127,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3988,Business,Business,Business,0.24597509996965528,9.936e-05,136,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2269,Sci/Tech,Sci/Tech,Sci/Tech,0.38409799989312887,8.856e-05,119,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2603,World,World,World,0.6299960003234446,3.8201e-05,115,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5709,Sports,Sports,Sports,0.49004819989204407,4.2303e-05,129,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1603,Business,Sci/Tech,Sci/Tech,0.2753475997596979,7.632e-05,102,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3816,Sci/Tech,Sci/Tech,Sci/Tech,0.2362746000289917,8.989e-05,147,4,Groq,meta-llama/llama-3.3-70b-instruct
+3041,World,World,World,0.40805150009691715,8.64e-05,118,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5026,Sports,Sports,Sports,0.30669099977239966,3.8787e-05,117,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4670,Business,Business,Business,0.1906031002290547,3.9666e-05,120,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+933,Sci/Tech,Sci/Tech,Sci/Tech,0.42312749987468123,4.3e-05,116,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7021,World,World,World,0.20293870009481907,4.4354e-05,136,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4882,Sports,Sports,Sports,0.5850408002734184,8.496e-05,116,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5479,Business,Sci/Tech,Sci/Tech,0.33729489985853434,9.792e-05,132,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2877,Sci/Tech,Sci/Tech,Sci/Tech,0.30613810010254383,8.784e-05,118,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1205,World,World,World,0.18387659965083003,7.828e-05,130,2,Groq,meta-llama/llama-3.3-70b-instruct
+242,Sports,Sports,Sports,0.5323032001033425,3.2634e-05,96,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2084,Business,Business,Business,0.409774299710989,4.2596e-05,130,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4826,Sci/Tech,Sci/Tech,Sci/Tech,0.23113910015672445,4.2414e-05,114,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2418,World,World,World,0.2792672999203205,9.288e-05,127,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3200,Sports,Sports,Sports,0.40954119991511106,4.1131e-05,125,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5766,Business,Business,Business,0.27301110001280904,9.432e-05,129,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2818,Sci/Tech,Sci/Tech,Sci/Tech,0.34117669984698296,3.9484e-05,104,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+196,World,Business,Business,0.30493299989029765,4.9335e-05,153,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6326,Sports,Sports,Sports,0.25642789993435144,6.943e-05,115,2,Groq,meta-llama/llama-3.3-70b-instruct
+3269,Business,Business,Business,0.56148979999125,9e-05,123,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5382,Sci/Tech,Sci/Tech,Sci/Tech,0.2784553002566099,4.2121e-05,113,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4188,World,World,World,0.20376979978755116,8.424e-05,115,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4842,Sports,Sports,Sports,0.26956709986552596,9e-05,123,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6661,Business,Business,Business,0.27006310038268566,8.424e-05,115,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2767,Sci/Tech,Sci/Tech,Sci/Tech,0.4093671999871731,4.3586e-05,118,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3678,World,World,World,0.1845685001462698,5.704e-05,94,2,Groq,meta-llama/llama-3.3-70b-instruct
+5585,Sports,Sports,Sports,0.1805571997538209,7.12e-05,118,2,Groq,meta-llama/llama-3.3-70b-instruct
+6454,Business,Business,Business,0.2527356999926269,3.908e-05,118,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3159,Sci/Tech,Sci/Tech,Sci/Tech,0.3018379001878202,7.042e-05,114,4,Groq,meta-llama/llama-3.3-70b-instruct
+4616,World,World,World,0.2010709997266531,4.201e-05,128,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2160,Sports,Sports,Sports,0.23051759973168373,9.648e-05,132,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3016,Business,Business,Business,0.38546109991148114,9.072e-05,124,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5187,Sci/Tech,Sci/Tech,Sci/Tech,0.30672959983348846,3.8312e-05,100,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1580,World,World,World,0.5111255999654531,8.208e-05,112,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5594,Sports,Sports,Sports,0.3062114999629557,3.7029e-05,111,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6066,Business,Business,Business,0.20302189979702234,7.533e-05,125,2,Groq,meta-llama/llama-3.3-70b-instruct
+5048,Sci/Tech,Sci/Tech,Sci/Tech,0.30537790013477206,4.3586e-05,118,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1723,World,World,World,0.4136409997008741,3.7908e-05,114,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6684,Sports,Sports,Sports,0.2376621998846531,3.8201e-05,115,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1030,Business,Business,Business,0.18217669986188412,4.0252e-05,122,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1802,Sci/Tech,Sci/Tech,Sci/Tech,0.1998940003104508,8.208e-05,110,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1142,World,Business,Business,0.19449839973822236,7.455e-05,103,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+206,Sports,Sports,Sports,0.2555455998517573,8.496e-05,116,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4304,Business,Business,Business,0.35992780001834035,6.294e-05,104,2,Groq,meta-llama/llama-3.3-70b-instruct
+6808,Sci/Tech,Sci/Tech,Sci/Tech,0.2736430000513792,6.035e-05,81,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5517,World,World,World,0.33992139995098114,9.792e-05,134,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5198,Sports,Sports,Sports,0.30638450011610985,7.776e-05,106,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7599,Business,Business,Business,0.3167273001745343,3.4978e-05,104,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4663,Sci/Tech,Sci/Tech,Sci/Tech,0.29607720021158457,4.1242e-05,110,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4077,World,World,World,0.20458919974043965,6.589e-05,109,2,Groq,meta-llama/llama-3.3-70b-instruct
+4283,Sports,Sports,Sports,0.5542583004571497,3.9959e-05,121,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+916,Business,Business,Business,0.2642244999296963,6.035e-05,83,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5697,Sci/Tech,Sci/Tech,Sci/Tech,0.3069946002215147,0.00010224,138,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1623,World,World,World,0.2472151997499168,6.248e-05,86,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2036,Sports,Sports,Sports,0.21099819988012314,3.8787e-05,117,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5593,Business,Business,Business,0.2086537997238338,7.029e-05,97,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1983,Sci/Tech,Sci/Tech,Sci/Tech,0.2525636996142566,7.416e-05,99,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2059,World,World,World,0.3067227997817099,5.68e-05,78,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+6881,Sports,Sports,Sports,0.34042020002380013,7.455e-05,103,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1771,Business,Business,Business,0.64349320018664,3.9666e-05,120,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4306,Sci/Tech,Sci/Tech,Sci/Tech,0.20783689990639687,9.216e-05,124,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3306,World,Sci/Tech,Sci/Tech,0.44334050035104156,7.242e-05,98,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5290,Sports,Sports,Sports,0.3076904001645744,6.39e-05,88,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2597,Business,Business,Business,0.29923229990527034,9.216e-05,126,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2879,Sci/Tech,Business,Business,2.268248800188303,5.0507e-05,157,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5806,World,World,World,0.31223220005631447,3.8201e-05,115,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3841,Sports,Sports,Sports,0.29066239995881915,8.424e-05,115,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1258,Business,Business,Business,0.31259540002793074,3.9373e-05,119,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3262,Sci/Tech,Sci/Tech,Sci/Tech,0.5075143999420106,9.288e-05,125,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+908,World,World,World,0.30653929989784956,3.8494e-05,116,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+344,Sports,World,World,0.1798789002932608,9e-05,123,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3396,Business,Business,Business,0.2356611001305282,6.958e-05,96,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2635,Sci/Tech,Sci/Tech,Sci/Tech,0.3021904001943767,4.8567e-05,135,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7364,World,World,World,0.3046176000498235,8.352e-05,114,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3442,Sports,Sports,Sports,0.7158782002516091,6.532e-05,90,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2699,Business,Business,Business,0.3056748998351395,6.768e-05,92,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3222,Sci/Tech,Sci/Tech,Sci/Tech,0.24457819992676377,8.64e-05,116,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+833,World,Sports,Sports,0.2174973003566265,7.029e-05,97,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5705,Sports,Sports,Sports,0.3367665000259876,3.6443e-05,109,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7511,Business,Business,Business,0.3015691000036895,8.496e-05,116,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7268,Sci/Tech,Sci/Tech,Sci/Tech,0.18577060010284185,8.399e-05,137,4,Groq,meta-llama/llama-3.3-70b-instruct
+1017,World,World,World,0.5347919999621809,8.3e-05,138,2,Groq,meta-llama/llama-3.3-70b-instruct
+3490,Sports,Sports,Sports,0.3051188001409173,6.106e-05,84,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+184,Business,Business,Business,0.6158810998313129,4.8163e-05,149,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6506,Sci/Tech,Sci/Tech,Sci/Tech,0.4017527000978589,4.6809e-05,129,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2055,World,World,World,0.21165260020643473,7.592e-05,126,2,Groq,meta-llama/llama-3.3-70b-instruct
+3965,Sports,Sports,Sports,0.3063480001874268,3.7908e-05,114,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1989,Business,Business,Business,0.5061832997016609,3.6443e-05,109,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+74,Sci/Tech,Sci/Tech,Sci/Tech,0.3129340000450611,7.739e-05,105,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+926,World,World,World,0.306624099612236,8.418e-05,140,2,Groq,meta-llama/llama-3.3-70b-instruct
+2416,Sports,Sports,Sports,0.3049970003776252,8.784e-05,120,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6138,Business,Business,Business,0.4104891000315547,4.2889e-05,131,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3776,Sci/Tech,Sci/Tech,Sci/Tech,0.20424410002306104,6.745e-05,91,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1977,World,World,World,0.3052638997323811,9.936e-05,136,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4350,Sports,Sports,Sports,0.4971177000552416,4.1131e-05,125,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2590,Business,Business,Business,0.7392317000776529,1.154e-05,109,2,DeepInfra,meta-llama/llama-3.3-70b-instruct
+4866,Sci/Tech,Sci/Tech,Sci/Tech,0.2989087998867035,3.8019e-05,99,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7029,World,World,World,0.30717500019818544,7.1e-05,98,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4693,Sports,Sports,Sports,0.3066018996760249,4.1131e-05,125,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3742,Business,Business,Business,0.3063227999955416,9.648e-05,132,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4114,Sci/Tech,Sci/Tech,Sci/Tech,0.2370985997840762,0.00010656,144,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+155,World,Sci/Tech,Sci/Tech,0.376965600065887,7.2e-05,96,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2691,Sports,Sports,Sports,0.30702479975298047,8.712e-05,119,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3379,Business,Business,Business,0.2048737001605332,7.238e-05,120,2,Groq,meta-llama/llama-3.3-70b-instruct
+4272,Sci/Tech,World,World,0.3059662999585271,7.776e-05,106,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5510,World,World,World,0.3072317000478506,7.56e-05,103,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+675,Sports,Sports,Sports,0.3050366002134979,9.288e-05,127,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+571,Business,Business,Business,0.307577199768275,8.856e-05,121,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5512,Sci/Tech,Sci/Tech,Sci/Tech,0.30711699975654483,4.4758e-05,122,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7197,World,World,World,0.3069704002700746,4.3182e-05,132,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7517,Sports,Sports,Sports,1.022816099692136,7.526e-05,104,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+58,Business,Business,Business,0.3058421998284757,8.136e-05,111,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4150,Sci/Tech,Sci/Tech,Sci/Tech,0.2787697999738157,8.496e-05,114,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+894,World,World,World,0.43777119973674417,7.651e-05,127,2,Groq,meta-llama/llama-3.3-70b-instruct
+7152,Sports,Sports,Sports,0.30620269989594817,8.424e-05,115,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+700,Business,Business,Business,0.51187579985708,4.0545e-05,123,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7207,Sci/Tech,Sci/Tech,Sci/Tech,0.30656279996037483,9.144e-05,123,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2125,World,World,World,0.5114138000644743,4.1131e-05,125,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6135,Sports,Sports,Sports,0.3083974998444319,8.712e-05,119,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2573,Business,Business,Business,0.30493339989334345,9.288e-05,127,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2107,Sci/Tech,Sci/Tech,Sci/Tech,0.20467250002548099,5.0618e-05,142,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2531,World,World,World,0.3093786998651922,7.2e-05,98,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2235,Sports,Sports,Sports,0.2017144998535514,3.8494e-05,116,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7303,Business,Business,Business,0.40867909975349903,6.745e-05,93,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+6653,Sci/Tech,Sci/Tech,Sci/Tech,0.30448719998821616,8.136e-05,109,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4718,World,World,World,0.3092919001355767,8.712e-05,119,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+553,Sports,Sports,Sports,0.9211806003004313,6.603e-05,91,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+953,Business,Business,Business,0.3084678999148309,8.856e-05,121,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1497,Sci/Tech,Business,Business,0.3048067996278405,3.8787e-05,117,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5732,World,World,World,0.3069821996614337,3.2634e-05,96,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6277,Sports,Sports,Sports,0.2159254001453519,3.6443e-05,109,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6725,Business,Business,Business,0.294996100012213,9.72e-05,133,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2633,Sci/Tech,Business,Business,0.3064362998120487,6.294e-05,104,2,Groq,meta-llama/llama-3.3-70b-instruct
+3650,World,World,World,0.30560640012845397,7.2e-05,98,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3165,Sports,Sports,Sports,0.3084606002084911,6.106e-05,84,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5224,Business,Business,Business,0.3053021999076009,8.28e-05,113,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7304,Sci/Tech,Sci/Tech,Sci/Tech,0.4095938000828028,8.64e-05,116,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4620,World,World,World,0.7759425998665392,4.1424e-05,126,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+564,Sports,Sports,Sports,0.4525974001735449,8.424e-05,115,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6996,Business,Business,Business,0.30675859982147813,4.2596e-05,130,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2850,Sci/Tech,Sci/Tech,Sci/Tech,0.6121407998725772,6.461e-05,87,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1300,World,World,World,0.3085401998832822,4.2889e-05,131,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3936,Sports,Sports,Sports,1.0237263003364205,5.822e-05,80,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4254,Business,Business,Business,0.3049753000959754,8.784e-05,120,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3643,Sci/Tech,World,World,0.3077555000782013,7.592e-05,126,2,Groq,meta-llama/llama-3.3-70b-instruct
+3762,World,Sci/Tech,Sci/Tech,0.23520160000771284,9.72e-05,131,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2723,Sports,Sports,Sports,0.38769330037757754,3.4392e-05,102,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3482,Business,Business,Business,0.2193299001082778,7.632e-05,104,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5338,Sci/Tech,Sci/Tech,Sci/Tech,0.3016592999920249,4.2414e-05,114,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3845,World,World,World,0.2862867000512779,8.64e-05,118,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5430,Sports,Sports,Sports,0.6968263001181185,4.8163e-05,149,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6789,Business,Business,Business,0.4311116999015212,3.8494e-05,116,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2764,Sci/Tech,Sci/Tech,Sci/Tech,0.30434999987483025,0.000107,176,4,Groq,meta-llama/llama-3.3-70b-instruct
+4456,World,World,World,0.2426172001287341,9.432e-05,129,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+27,Sports,Sports,Sports,0.2596866004168987,5.08e-05,158,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4822,Business,Business,Business,0.31520739989355206,7.416e-05,101,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4005,Sci/Tech,Sci/Tech,Sci/Tech,0.3080903999507427,9.072e-05,122,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4357,World,World,World,0.5108755002729595,4.2596e-05,130,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3031,Sports,Sports,Sports,0.3108254997059703,3.6443e-05,109,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3083,Business,Business,Business,0.3061636001802981,3.7029e-05,111,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4815,Sci/Tech,Sci/Tech,Sci/Tech,0.20141889993101358,6.629e-05,107,4,Groq,meta-llama/llama-3.3-70b-instruct
+3473,World,World,World,0.30535290017724037,8.568e-05,117,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6740,Sports,Sports,Sports,0.3072192003019154,9e-05,123,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6542,Business,Business,Business,0.3789602997712791,3.7908e-05,114,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5918,Sci/Tech,Sci/Tech,Sci/Tech,0.33678789995610714,4.3e-05,116,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5191,World,World,World,0.3069361997768283,9.288e-05,127,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4532,Sports,Sports,Sports,0.30830639973282814,8.28e-05,113,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3121,Business,Business,Business,0.3053893996402621,0.00010152,139,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2902,Sci/Tech,Sci/Tech,Sci/Tech,0.4074086998589337,4.4758e-05,122,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5726,World,World,World,0.4584033000282943,3.7615e-05,113,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2890,Sports,Sports,Sports,0.46168409986421466,4.2889e-05,131,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6596,Business,Business,Business,0.30517440009862185,7.632e-05,104,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2095,Sci/Tech,Business,Business,0.5132973003201187,4.1131e-05,125,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4675,World,World,World,0.20334079954773188,5.325e-05,73,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2144,Sports,Sports,Sports,0.2101886998862028,8.208e-05,112,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6555,Business,Business,Business,0.1973134996369481,7.029e-05,97,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4576,Sci/Tech,Sci/Tech,Sci/Tech,0.8331833002157509,8.58e-06,73,4,DeepInfra,meta-llama/llama-3.3-70b-instruct
+1582,World,World,World,0.23951830016449094,0.00012672,174,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+939,Sports,Sports,Sports,0.28618310019373894,7.92e-05,108,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2827,Business,Sci/Tech,Sci/Tech,0.30437489971518517,7.1e-05,96,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+716,Sci/Tech,Business,Business,0.24943049997091293,7.002e-05,116,2,Groq,meta-llama/llama-3.3-70b-instruct
+6643,World,World,World,0.5672818999737501,6.106e-05,84,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+7287,Sports,Sports,Sports,0.26082330010831356,3.9959e-05,121,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4931,Business,Business,Business,0.739616499748081,7.313e-05,101,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+6220,Sci/Tech,Sci/Tech,Sci/Tech,0.41131250001490116,4.2121e-05,113,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1980,World,World,World,0.3041551997885108,9.144e-05,125,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3066,Sports,Sports,Sports,0.3074127999134362,4.3768e-05,134,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5475,Business,Business,Business,0.40918099973350763,6.745e-05,93,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4960,Sci/Tech,Sci/Tech,Sci/Tech,0.30706819985061884,4.2707e-05,115,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3132,World,World,World,0.4102153000421822,6.745e-05,93,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1113,Sports,Sports,Sports,0.15566870011389256,6.603e-05,91,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4840,Business,Business,Business,0.2542659002356231,9.144e-05,125,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1046,Sci/Tech,Sci/Tech,Sci/Tech,0.26719170017167926,4.007e-05,106,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6976,World,World,World,0.24384329980239272,9.216e-05,126,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+353,Sports,Sports,Sports,0.307149900123477,8.64e-05,118,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2175,Business,Business,Business,0.20301669975742698,7.533e-05,125,2,Groq,meta-llama/llama-3.3-70b-instruct
+2382,Sci/Tech,Sci/Tech,Sci/Tech,0.30911900009959936,8.784e-05,118,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4577,World,World,World,0.40097570000216365,7.242e-05,100,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1054,Sports,Sports,Sports,0.3135085999965668,9.072e-05,124,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3105,Business,Business,Business,0.2727896999567747,8.784e-05,120,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3414,Sci/Tech,Sci/Tech,Sci/Tech,0.24766979971900582,6.806e-05,110,4,Groq,meta-llama/llama-3.3-70b-instruct
+1464,World,World,World,0.2993876999244094,8.928e-05,122,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+213,Sports,Sports,Sports,0.30714070005342364,7.828e-05,130,2,Groq,meta-llama/llama-3.3-70b-instruct
+7249,Business,Business,Business,0.22545969998463988,9.072e-05,124,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1071,Sci/Tech,Sci/Tech,Sci/Tech,0.2450998998247087,8.136e-05,109,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2559,World,World,World,0.34641609992831945,5.751e-05,79,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5731,Sports,Sports,Sports,0.3041277998127043,3.7908e-05,114,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1631,Business,Sci/Tech,Sci/Tech,0.44537980016320944,4.4758e-05,122,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1501,Sci/Tech,Business,Business,0.2704616002738476,8.359e-05,139,2,Groq,meta-llama/llama-3.3-70b-instruct
+6973,World,Business,Business,0.5124437999911606,3.7908e-05,114,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2552,Sports,Sports,Sports,0.20359699986875057,8.568e-05,117,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5143,Business,Business,Business,2.3113862997852266,9.36e-05,128,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3229,Sci/Tech,Sci/Tech,Sci/Tech,0.25073330011218786,8.064e-05,108,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+229,World,World,World,0.3070887001231313,7.651e-05,127,2,Groq,meta-llama/llama-3.3-70b-instruct
+4180,Sports,Sports,Sports,0.2139610000886023,8.064e-05,110,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1050,Business,Business,Business,0.5009886003099382,6.958e-05,96,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+6086,Sci/Tech,Sci/Tech,Sci/Tech,0.3067375998944044,8.352e-05,112,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4398,World,World,World,0.31264649983495474,6.958e-05,96,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+686,Sports,Sports,Sports,0.19676540000364184,9.072e-05,124,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3857,Business,Business,Business,0.24416360026225448,9.072e-05,124,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1954,Sci/Tech,Sci/Tech,Sci/Tech,0.2684773998335004,8.856e-05,119,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3452,World,World,World,0.22162199998274446,7.272e-05,99,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6057,Sports,Sports,Sports,0.2893803999759257,7.769e-05,129,2,Groq,meta-llama/llama-3.3-70b-instruct
+4253,Business,Business,Business,0.30642500007525086,5.467e-05,75,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4252,Sci/Tech,Sci/Tech,Sci/Tech,0.40832139970734715,9.72e-05,131,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5356,World,World,World,0.3073670002631843,4.201e-05,128,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4454,Sports,Sports,Sports,0.2045999001711607,3.908e-05,118,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3671,Business,Sci/Tech,Sci/Tech,0.30720930034294724,8.784e-05,118,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5968,Sci/Tech,Sci/Tech,Sci/Tech,0.29104410018771887,4.8567e-05,135,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6324,World,World,World,0.2194360001012683,7.592e-05,126,2,Groq,meta-llama/llama-3.3-70b-instruct
+5643,Sports,Sports,Sports,0.30599649995565414,8.28e-05,113,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5505,Business,Business,Business,0.42118610022589564,9.144e-05,125,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4266,Sci/Tech,Business,Business,0.4215404000133276,4.0252e-05,122,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3389,World,World,World,0.3853831999003887,4.3768e-05,134,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4040,Sports,Sports,Sports,0.4019944998435676,8.424e-05,115,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4652,Business,Business,Business,0.4520007995888591,3.8494e-05,116,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5482,Sci/Tech,Sci/Tech,Sci/Tech,0.2994796000421047,3.9484e-05,104,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2524,World,World,World,0.2021816000342369,3.908e-05,118,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6901,Sports,Sports,Sports,0.5213430002331734,3.7908e-05,114,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7056,Business,Business,Business,0.34746439987793565,3.7615e-05,113,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6782,Sci/Tech,Business,Business,0.2692096000537276,7.384e-05,102,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4726,World,World,World,0.34303499991074204,5.964e-05,82,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2328,Sports,Sports,Sports,0.3064084001816809,7.848e-05,107,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5969,Business,Business,Business,0.32091529993340373,7.455e-05,103,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3417,Sci/Tech,Sci/Tech,Sci/Tech,0.3036232003942132,4.593e-05,126,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5685,World,Business,Business,0.2961780000478029,3.4099e-05,101,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2090,Sports,Sports,Sports,0.2082832995802164,3.8201e-05,115,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5523,Business,Business,Business,0.5083809001371264,5.68e-05,78,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2217,Sci/Tech,Sci/Tech,Sci/Tech,0.3072016998194158,3.9777e-05,105,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3176,World,World,World,0.30647109961137176,9.576e-05,131,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5882,Sports,Sports,Sports,0.2657443997450173,7.1e-05,98,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+6347,Business,World,World,0.2647718000225723,8.928e-05,122,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5003,Sci/Tech,Sci/Tech,Sci/Tech,0.3867283998988569,4.4758e-05,122,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2593,World,World,World,0.19511969992890954,7.356e-05,122,2,Groq,meta-llama/llama-3.3-70b-instruct
+949,Sports,Sports,Sports,0.21772880014032125,3.615e-05,108,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1693,Business,Business,Business,0.5094638001173735,7.1e-05,98,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1447,Sci/Tech,World,World,0.2800664999522269,8.28e-05,113,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1860,World,World,World,0.2820717999711633,3.9666e-05,120,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3709,Sports,Sports,Sports,0.4615582996048033,4.1131e-05,125,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6349,Business,Business,Business,0.20326879993081093,4.0545e-05,123,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3290,Sci/Tech,Sci/Tech,Sci/Tech,0.30705989990383387,9e-05,121,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1521,World,World,World,0.30678300000727177,9.288e-05,127,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7288,Sports,Sports,Sports,0.30611780006438494,7.384e-05,102,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1661,Business,Business,Business,0.3563211001455784,4.1424e-05,126,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1898,Sci/Tech,Sci/Tech,Sci/Tech,0.36064770026132464,7.313e-05,99,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1402,World,World,World,0.20238569984212518,8.023e-05,111,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+7589,Sports,Sports,Sports,0.20839299960061908,8.496e-05,116,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7135,Business,Business,Business,1.3273669998161495,8.64e-05,118,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5687,Sci/Tech,Sci/Tech,Sci/Tech,0.3071741000749171,8.64e-05,116,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4010,World,World,World,0.5106303999200463,6.532e-05,90,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+135,Sports,Sports,Sports,0.34019050002098083,8.662e-05,120,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+7377,Business,Business,Business,0.4772532000206411,9.504e-05,130,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2177,Sci/Tech,Business,Business,0.30868689995259047,6.106e-05,84,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3163,World,World,World,0.251885499805212,8.023e-05,111,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3618,Sports,Sports,Sports,0.5638035000301898,6.674e-05,92,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4185,Business,Business,Business,0.306474800221622,7.533e-05,125,2,Groq,meta-llama/llama-3.3-70b-instruct
+4872,Sci/Tech,Sci/Tech,Sci/Tech,0.30739729991182685,8.856e-05,119,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1379,World,World,World,0.6198183000087738,8.378e-05,116,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1815,Sports,Sports,Sports,0.25623609963804483,6.589e-05,109,2,Groq,meta-llama/llama-3.3-70b-instruct
+1615,Business,Business,Business,0.24875510018318892,8.568e-05,117,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+257,Sci/Tech,Sci/Tech,Sci/Tech,0.3078319001942873,7.278e-05,118,4,Groq,meta-llama/llama-3.3-70b-instruct
+392,World,World,World,0.3064069002866745,7.297e-05,121,2,Groq,meta-llama/llama-3.3-70b-instruct
+5202,Sports,Sports,Sports,0.22113640001043677,8.064e-05,110,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7043,Business,Business,Business,0.6993646998889744,6.603e-05,91,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4305,Sci/Tech,Sci/Tech,Sci/Tech,0.38355519995093346,6.806e-05,110,4,Groq,meta-llama/llama-3.3-70b-instruct
+846,World,World,World,0.5369937000796199,6.745e-05,93,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3825,Sports,Sports,Sports,0.21141119999811053,0.00013248,182,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6691,Business,Business,Business,0.23893949994817376,6.319e-05,87,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3535,Sci/Tech,Sci/Tech,Sci/Tech,0.2649788004346192,4.1242e-05,110,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6914,World,Business,Business,0.5111508998088539,3.4099e-05,101,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+268,Sports,Sports,Sports,0.27601430006325245,7.242e-05,100,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4987,Business,Business,Business,0.24011390004307032,8.64e-05,118,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2678,Sci/Tech,Business,Business,0.30095080006867647,7.2e-05,98,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4147,World,World,World,0.3070386000908911,9.576e-05,131,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1408,Sports,Sports,Sports,0.30537439975887537,7.946e-05,132,2,Groq,meta-llama/llama-3.3-70b-instruct
+1177,Business,Business,Business,0.3080084999091923,8.208e-05,112,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5442,Sci/Tech,Sci/Tech,Sci/Tech,0.3058980000205338,7.75e-05,126,4,Groq,meta-llama/llama-3.3-70b-instruct
+451,World,World,World,0.21424870006740093,8.928e-05,122,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6111,Sports,Sports,Sports,0.40015899995341897,3.9959e-05,121,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7181,Business,Business,Business,0.30576490005478263,9.288e-05,127,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4721,Sci/Tech,Business,Business,0.306959199719131,3.6736e-05,110,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+606,World,World,World,0.204052799846977,6.745e-05,93,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+501,Sports,Sports,Sports,0.3076833998784423,3.9666e-05,120,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4289,Business,Business,Business,0.20245979959145188,6.461e-05,89,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+658,Sci/Tech,Sci/Tech,Sci/Tech,1.4412922002375126,4.0949e-05,109,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7284,World,World,World,0.30034129973500967,3.9373e-05,119,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5997,Sports,Sports,Sports,0.2043678998015821,4.201e-05,128,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2652,Business,Business,Business,0.4424121002666652,6.603e-05,91,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+7272,Sci/Tech,Sci/Tech,Sci/Tech,0.3748926999978721,3.5968e-05,92,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4032,World,World,World,0.3061428996734321,9.216e-05,126,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5200,Sports,Sports,Sports,0.29606130020692945,9.216e-05,126,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+621,Business,Business,Business,0.27045660000294447,7.992e-05,109,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+111,Sci/Tech,Business,Business,0.3548193001188338,7.81e-05,108,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+618,World,World,World,0.3071810998953879,9.144e-05,125,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7142,Sports,Sports,Sports,0.2880361997522414,7.029e-05,97,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+6079,Business,Business,Business,0.42759349988773465,9.576e-05,131,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2061,Sci/Tech,Sci/Tech,Sci/Tech,0.5077196997590363,6.674e-05,90,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4039,World,World,World,0.3096479997038841,8.064e-05,110,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1040,Sports,Sports,Sports,0.3076185998506844,8.712e-05,119,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4979,Business,Business,Business,0.3113555000163615,6.461e-05,89,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1503,Sci/Tech,Sci/Tech,Sci/Tech,0.24277770007029176,8.208e-05,110,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2549,World,World,World,0.35194600000977516,3.4978e-05,104,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4050,Sports,Sports,Sports,0.3069564998149872,5.964e-05,82,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1997,Business,Business,Business,0.3371210000477731,3.5271e-05,105,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1425,Sci/Tech,Sci/Tech,Sci/Tech,0.2760300999507308,7.704e-05,103,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+829,World,World,World,0.23740330012515187,7.002e-05,116,2,Groq,meta-llama/llama-3.3-70b-instruct
+4345,Sports,Sports,Sports,0.23155729984864593,6.768e-05,92,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6224,Business,Business,Business,0.2179291001521051,9.216e-05,126,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+654,Sci/Tech,Sports,Sports,0.2311966000124812,9.36e-05,128,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1222,World,World,World,0.20537620037794113,4.1424e-05,126,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5401,Sports,Sports,Sports,0.30490170000121,8.28e-05,113,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3390,Business,Business,Business,0.23307609977200627,9.504e-05,130,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1918,Sci/Tech,Business,Business,0.2783508002758026,6.106e-05,84,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3377,World,World,World,0.5119163999333978,7.739e-05,107,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3376,Sports,Sports,Sports,0.29836969962343574,4.494e-05,138,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+110,Business,Business,Business,0.31735119968652725,4.1424e-05,126,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3670,Sci/Tech,Sci/Tech,Sci/Tech,0.307271100115031,8.856e-05,119,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6413,World,World,World,1.2290795003063977,8.136e-05,111,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+5653,Sports,Sports,Sports,0.25056250020861626,8.654e-05,144,2,Groq,meta-llama/llama-3.3-70b-instruct
+1838,Business,Business,Business,0.25937769981101155,9e-05,123,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3612,Sci/Tech,Sci/Tech,Sci/Tech,0.3084339997731149,9.504e-05,128,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+617,World,World,World,0.29463200038298965,4.1424e-05,126,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+996,Sports,Sports,Sports,0.32994720013812184,7.92e-05,108,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+890,Business,Business,Business,0.18848850019276142,6.177e-05,85,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5762,Sci/Tech,Sci/Tech,Sci/Tech,0.30973799992352724,4.4465e-05,121,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5208,World,World,World,0.2651639999821782,3.7029e-05,111,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1362,Sports,Sports,Sports,0.3483139001764357,3.908e-05,118,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2574,Business,Sci/Tech,Sci/Tech,0.9204987003467977,4.5051e-05,123,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+554,Sci/Tech,Business,Business,0.4091503000818193,3.8787e-05,117,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6479,World,World,World,0.3948864000849426,7.061e-05,117,2,Groq,meta-llama/llama-3.3-70b-instruct
+3745,Sports,Sports,Sports,0.32344159996137023,7.171e-05,99,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5814,Business,Business,Business,0.3079274999909103,4.3182e-05,132,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1443,Sci/Tech,Sci/Tech,Sci/Tech,0.30478010000661016,5.893e-05,79,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+5369,World,Business,Business,0.20907509978860617,7.526e-05,104,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+7016,Sports,Business,Business,0.19950460037216544,5.751e-05,79,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3488,Business,World,World,0.3077991995960474,3.4099e-05,101,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5391,Sci/Tech,Sci/Tech,Sci/Tech,0.3042725003324449,4.9739e-05,139,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6292,World,Business,Business,0.192395499907434,6.745e-05,93,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+1249,Sports,Sports,Sports,0.21681089978665113,6.745e-05,93,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3870,Business,Business,Business,0.4101526001468301,3.9959e-05,121,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+471,Sci/Tech,Business,Business,0.34128830023109913,3.9666e-05,120,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7041,World,World,World,0.2744569000788033,4.1131e-05,125,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4509,Sports,Sports,Sports,0.30534059973433614,3.7029e-05,111,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5506,Business,Business,Business,0.20373890036717057,8.784e-05,120,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+240,Sci/Tech,Sci/Tech,Sci/Tech,0.5115201999433339,6.39e-05,86,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+6812,World,World,World,0.3096453999169171,9.072e-05,124,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2388,Sports,Sports,Sports,0.30609830003231764,8.28e-05,113,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+2749,Business,Business,Business,0.6141413999721408,7.313e-05,101,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2676,Sci/Tech,Sci/Tech,Sci/Tech,0.2024503001011908,7.056e-05,94,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4313,World,World,World,0.2031519003212452,6.912e-05,94,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4956,Sports,Sports,Sports,0.19737809989601374,6.106e-05,84,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+7210,Business,Business,Business,0.2746449997648597,8.64e-05,118,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+7429,Sci/Tech,Sci/Tech,Sci/Tech,0.6401753001846373,7.597e-05,103,4,CoreWeave,meta-llama/llama-3.3-70b-instruct
+3878,World,World,World,0.2016333001665771,3.4978e-05,104,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2493,Sports,Sports,Sports,0.32632149988785386,0.00011304,155,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4326,Business,Business,Business,0.41095730010420084,3.6736e-05,110,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4983,Sci/Tech,Sci/Tech,Sci/Tech,0.20027159992605448,8.352e-05,112,4,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4453,World,World,World,0.4104177001863718,6.353e-05,105,2,Groq,meta-llama/llama-3.3-70b-instruct
+2744,Sports,Sports,Sports,0.21649579983204603,7.384e-05,102,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+2296,Business,Business,Business,0.29368910007178783,8.784e-05,120,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3441,Sci/Tech,Sci/Tech,Sci/Tech,0.2036518002860248,4.2414e-05,114,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1934,World,World,World,0.6158059001900256,8.949e-05,149,2,Groq,meta-llama/llama-3.3-70b-instruct
+4540,Sports,World,World,0.30693359998986125,3.9373e-05,119,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1122,Business,Business,Business,0.1794557999819517,7.242e-05,100,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4140,Sci/Tech,Business,Business,0.20398830017074943,9.072e-05,124,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6481,World,World,World,0.9450401002541184,4.1424e-05,126,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1551,Sports,Sports,Sports,0.3086840002797544,8.712e-05,119,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1865,Business,Business,Business,0.30577539978548884,3.8787e-05,117,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2799,Sci/Tech,Sci/Tech,Sci/Tech,0.21702970005571842,4.2121e-05,113,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3855,World,World,World,0.39641249971464276,4.2889e-05,131,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3347,Sports,Sports,Sports,0.3086525001563132,0.00010008,137,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3548,Business,Business,Business,0.3040869999676943,7.488e-05,102,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+6372,Sci/Tech,Sci/Tech,Sci/Tech,0.30789019959047437,4.3879e-05,119,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+948,World,World,World,0.306651100050658,4.3475e-05,133,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3000,Sports,Sports,Sports,0.3061886001378298,7.92e-05,108,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3975,Business,Business,Business,0.20880200015380979,4.4354e-05,136,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4499,Sci/Tech,Sci/Tech,Sci/Tech,0.30286839976906776,4.4465e-05,121,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+4399,World,World,World,0.4085145997814834,3.9666e-05,120,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+1172,Sports,Sports,Sports,0.24217060022056103,8.28e-05,113,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+418,Business,Business,Business,0.8838977999985218,7.739e-05,107,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4153,Sci/Tech,Sci/Tech,Sci/Tech,0.22664589993655682,4.1242e-05,110,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+595,World,World,World,0.48913680016994476,5.0507e-05,157,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+6799,Sports,Sports,Sports,0.30585180036723614,9.792e-05,134,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+4566,Business,Business,Business,0.22376739978790283,0.00010296,141,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1820,Sci/Tech,Sci/Tech,Sci/Tech,0.28874099999666214,4.2707e-05,115,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+2028,World,Sports,Sports,0.5099495998583734,3.5564e-05,106,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+679,Sports,Sports,Sports,0.19122109981253743,3.6443e-05,109,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+5175,Business,Business,Business,0.318523199763149,7.171e-05,99,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+4382,Sci/Tech,Sci/Tech,Sci/Tech,0.41044399980455637,4.3293e-05,117,4,Cloudflare,meta-llama/llama-3.3-70b-instruct
+3810,World,World,World,0.29511510021984577,6.589e-05,109,2,Groq,meta-llama/llama-3.3-70b-instruct
+2874,Sports,Sports,Sports,0.5232728999108076,4.3182e-05,132,2,Cloudflare,meta-llama/llama-3.3-70b-instruct
+7400,Business,Business,Business,0.2048241999000311,6.674e-05,92,2,CoreWeave,meta-llama/llama-3.3-70b-instruct
+6864,Sci/Tech,Business,Business,0.30651859985664487,0.00015768,217,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+3063,World,Sports,Sports,0.3058878998272121,7.272e-05,99,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+1048,Sports,Sports,Sports,0.21229959977790713,9.792e-05,134,2,Amazon Bedrock,meta-llama/llama-3.3-70b-instruct
+410,Business,Business,Business,0.29525010008364916,7.297e-05,121,2,Groq,meta-llama/llama-3.3-70b-instruct
+3800,Sci/Tech,Sci/Tech,Sci/Tech,0.2587315998971462,4.3e-05,116,4,Cloudflare,meta-llama/llama-3.3-70b-instruct

@@ -184,7 +184,7 @@ def main() -> None:
         {"model": "TF-IDF + LR", "config": str(best), "split": "validation", **val_scores},
     ]
 
-    pd.DataFrame(results).to_csv(args.out / "baseline_results.csv", index=False)
+    pd.DataFrame(results).to_csv(args.out / "validation_results.csv", index=False)
 
     if args.score_test:
         predictions = predict_one_at_a_time(model, test)
