@@ -1,0 +1,2 @@
+model,labeled_examples,n,accuracy,macro_f1,invalid,cost_per_1000_usd,latency_mean_s,latency_median_s,training_time_s,cpu
+TF-IDF + LR,3000,500,0.864,0.86367970148494,0,0.0,0.00043651439528912304,0.0004026498645544052,0.20988440001383424,"Intel64 Family 6 Model 189 Stepping 1, GenuineIntel"

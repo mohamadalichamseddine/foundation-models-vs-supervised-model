@@ -1,0 +1,3 @@
+model,accuracy_min,accuracy_max,spread_points
+gpt-4o-mini,0.844,0.904,6.000000000000005
+llama-3.3-70b,0.894,0.9,0.6000000000000005
